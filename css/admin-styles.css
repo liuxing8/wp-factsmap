@@ -1,0 +1,85 @@
+.admin-container {
+    border: 1px solid #e5e5e5;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    background: #fff;
+}
+
+.admin-container-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    vertical-align: middle;
+}
+
+.admin-fm-form-control {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.admin-fm-form-input {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    margin-right: 1rem !important;
+    vertical-align: middle !important;
+}
+
+.admin-fm-form-group {
+    display: inline-block;
+    width: inherit;
+}
+
+.admin-fm-form-delete-btn {
+    background: #be0e00 !important;
+    border-color: #ab0c00 #980b00 #980b00 !important;
+    -webkit-box-shadow: 0 1px 0 #980b00 !important;
+    box-shadow: 0 1px 0 #980b00 !important;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.admin-fm-label {
+    font-weight: 500;
+    margin-right: 0.5rem;
+}
+
+.admin-fm-map-container {
+    height: 35rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.admin-fm-search {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.admin-fm-search > * {
+    vertical-align: middle;
+}
+
+.admin-fm-search-input {
+    margin-right: 0.5rem;
+}
+
+.admin-fm-search-response {
+    line-height: 0.8rem;
+    font-size: 0.8rem;
+}
+
+.admin-fm-post-content {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.admin-fm-post-content img {
+    max-width: 100%;
+}
+
+.admin-fm-search-fail {
+    color: #be0e00;
+}
+
+.tablenav-pages {
+    float: left !important;
+}

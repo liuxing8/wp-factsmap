@@ -1,0 +1,171 @@
+.info-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background: #9e9e9e;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.info-img {
+    padding: 0px !important;
+    min-width: 300px;
+    min-height: 200px;
+    border-style: none;
+}
+
+.mr-1 {
+    margin-right: 1rem !important;
+}
+
+.ml-1 {
+    margin-left: 1rem !important;
+}
+
+.ml-05 {
+    margin-left: 0.5rem !important;
+}
+
+.mb-1 {
+    margin-bottom: 1rem !important;
+}
+
+.mt-05 {
+    margin-top: 0.5rem !important;
+}
+
+.pl-05 {
+    padding-left: 0.5rem !important;
+}
+
+.pr-05 {
+    padding-right: 0.5rem !important;
+}
+
+#mapContainer {
+    width: 100%;
+    height: 50rem;
+}
+
+.map-header {
+    margin-bottom: 1rem;
+}
+
+.map-modal-btn {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+
+.fm-btn {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    float: none !important;
+}
+
+.modal {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .modal:before {
+        display: inline-block;
+        vertical-align: middle;
+        left: 0% !important;
+        content: " ";
+        height: 100%;
+    }
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    left: 0% !important;
+}
+
+.nav-tabs > li.active > a {
+    background-color: #f5f5f5 !important;
+}
+
+.checkbox-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.filter-checkbox-container {
+    padding: 0.3rem !important;
+}
+
+.filter-checkbox {
+    padding-left: 0rem !important;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #8d8d8d;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #9e9e9e;
+}
+
+input:checked + .filter-checkbox {
+    background-color: #0090FF !important;
+    border-color: #0082e6 !important;
+}
+
+.filter-checkbox-btn {
+    color: #ffffff;
+    background-color: #0090FF;
+    border-color: #0082e6;
+}
+
+.filter-footer {
+    margin-bottom: 5rem;
+}
+
+.filter-save-btn {
+    margin-top: 1rem;
+}
+
+.filter-legend {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    vertical-align: text-top;
+}
+
+.glyphicon.glyphicon-dot-selected:before {
+    color: #0090FF;
+    content: "\25cf";
+    font-size: 2rem;
+}
+
+.glyphicon.glyphicon-dot-not-selected:before {
+    color: #9e9e9e;
+    content: "\25cf";
+    font-size: 2rem;
+}
+
+.filter-apply {
+    margin-bottom: 1rem;
+    color: #0090FF;
+}
+
+.filter-empty {
+    margin-bottom: 1rem;
+    color: #be0e00;
+}
